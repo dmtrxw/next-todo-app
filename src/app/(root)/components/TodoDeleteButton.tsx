@@ -22,6 +22,8 @@ function TodoDeleteButton({ id }: Props) {
         }
 
         navigation.refresh()
+
+        setIsPending(false)
     }
 
     return (
